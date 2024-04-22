@@ -15,7 +15,7 @@ const userRouter = require('./routes/user') // import the /user route handlers f
 
 const app = express()
 
-app.listen(process.env.PORT)
+app.listen(process.env.Port)
 
 app.set('views',path.join(__dirname,'views'))
 app.set('view engine','ejs')
